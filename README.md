@@ -68,8 +68,8 @@ Students will learn about CSS transforms and transitions, and then use the knowl
 
 Responsive Web Design Fundamentals. Being one of the most important skills in the labor market for front end web developers, responsive web design is given a thorough introduction. Students will learn how to use media queries in order to alter the look and feel of their site according to the device it is viewed in and will build their own framework for a bootstrap-like responsive grid.
 
-Intro to media queries http://www.w3schools.com/cssref/css3_pr_mediaquery.asp
-Then go into details with the media features: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+Intro to media queries http://www.w3schools.com/cssref/css3_pr_mediaquery.asp  
+Then go into details with the media features: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries  
 Creating printer friendly pages with media queries: https://benfrain.com/create-print-styles-using-css3-media-queries/
 
 ###Day 10  
