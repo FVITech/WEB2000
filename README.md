@@ -50,7 +50,7 @@ Absent students on either day 3 or 4 can follow the meme generator course from u
 
 ###Day 5  
 
-Introduction to the new HTML5 semantic elements. By the end of this class students will know how to use the nav, article, and section elements, as well as audio and video components. Students will also review how to use the localstorage construct. Web workers and web app resource loading will also be mentioned but not applied (ch25 of php book). We follow this resource: pluralsight  
+Introduction to the new HTML5 semantic elements. By the end of this class students will know how to use the nav, article, and section elements, as well as audio and video components. Students will also review how to use the localstorage construct. Web workers and web app resource loading will also be mentioned but not applied (ch25 of php book). We follow this resource: https://www.pluralsight.com/courses/semantic-html-2329    
 
 ###Day 6  
 
