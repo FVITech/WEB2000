@@ -3,7 +3,7 @@
 #Homework
 
 Choice 1: Progress through 40% of codecademy javascript
-Choice 2: Progress through 150 levels of free code camp
+Choice 2: Progress through at least 20 levels of free code camp above level 150
 
 #Grading
 
