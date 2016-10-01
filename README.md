@@ -2,8 +2,8 @@
 
 #Homework
 
-Do 40% of the codecademy javascript track. Video explanations are available on the youtube channel named thecodingteacher.
-Complete the exercises from http://fvi-grad.com
+Choice 1: Progress through 40% of codecademy javascript
+Choice 2: Progress through 150 levels of free code camp
 
 #Grading
 
