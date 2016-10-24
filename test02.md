@@ -18,5 +18,6 @@ Choose three of the shortcomings this website has and explain the specific tools
     6. Your controls.js file should export a single function that configures the controls when called. Import and call this function from your main.js file. **(10pts)**  
     7. No more than one script link is allowed in the main index.html. The only script that should be linked from index.html is prod.js  
     8. Use uglifyjs to minify the code **(20 point bonus)**  
+    9. Upload your code to fvi-grad.com under your username **(10pts)**
   7. In the end, all your JavaScript code should be inside a file named prod.js, which was created by using browserify  
   8. Notice that whenever there is a collision, the audio is being loaded and played. This slows down performance. Modify the code so that it loads the audio only once, stores it as a global variable, and whenever there is a collision, you use this clobal variable to reset the audio's currentTime to zero and then play it. **(20pts)**
