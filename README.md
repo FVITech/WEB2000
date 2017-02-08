@@ -45,21 +45,25 @@ subject: The email subject you want the receiver to see
 
 The last two should be visible form inputs, the others should be hidden. 
 
-##Day 3 
+##Day 3
+
+Finish resume emailer.
+
+##Day 4 
 
 Introduction to video and audio elements. We went through the first 3 parts of the treehouse class and made the two pages in this repo: https://github.com/Swolebrain/html5-video-and-audio-demo
 
-##Day 4
+##Day 5
 
 The objective of this day is for students to understand the principles of html performance optimization. After this class, students will have learned and applied asynchronous loading of scripts, conditional resources dependent on media, optimization of images, and minification of resources. Students will be assigned a project where they will implement a simple board game. We use the Udacity course: https://www.udacity.com/course/website-performance-optimization--ud884
 
 We need to leave students with specific resources such as how to bundle and minify CSS files using npm and how to browserify and uglify JS files, also using npm.
 
-##Day 5
+##Day 6
 
 Quick formative assessment on html emails, video/audio elements, and website performance optimization. Then we start with a guided tutorial building a Pong game on plain canvas: https://github.com/Swolebrain/Pong
 
-##Days 6-9
+##Days 7-9
 
 Flappy bird. First two days are spent on following along based on [this codebase](https://github.com/Swolebrain/flappy-bird), and the third day is spend on adding student-defined features, refactoring, browserifying, deploying.
 
@@ -67,6 +71,9 @@ You can use this video for reference for students who miss class: https://www.yo
 
 ##Day 10
 
+
 ##Day 11
 
+
 ##Day 12
+Final Exam

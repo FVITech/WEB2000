@@ -15,11 +15,16 @@
 
 5. What is the name of the Google tool you can use to see a list of things you can do to improve your page's load speed? (10 pts)  
 
-6. Build an audiobook player that is capable of loading an audio file and that remembers the audio file that was loaded and the location where you left off (using localStorage, node or firebase). You may consult the video project we did in class. You may test your audio player with these files: (50 pts)  
-  * http://swolebrain.com/GrowthHackerMarketing.mp3  
-  * http://swolebrain.com/TheArtofLearning.mp3  
-  * http://cdn.panoply.fm/PP3692963319.mp3  
-
-You need to implement the speed up and speed down controls, as well as the forward 10 seconds and back 10 seconds controls.
-
-7. (Bonus 40pts) Add a feature to the above program to maintain a listening list you can switch back and forth between. In other words, every time you load a new audio file, it should be added to your library (also on localStorage, node or firebase). Each independent title should maintain record of its last played location. 
+6. Use browserify to bundle all the files in the following project: https://github.com/Swolebrain/connect4  
+  Setup Steps:
+    1. Fork the project by going to the above link and clicking "Fork" near the top right of the screen
+    2. The project will now have a copy in your own github page. Clone it from there.
+    3. In your computer, initialize this folder as a node project.
+    4. Install browserify, make sure it's saved as a development dependency in package.json
+    5. Split out the code from the createTable function and the isLegitEdge function into separate files. **Make sure each function has its own file.**
+    6. Back in your main file, require the contents of your two new files
+    7. Create an npm script to use browserify to create a javascript bundle (one single file containing all your JS).
+    8. Do anything else you need to do in order to get the bundle working and test your site.
+    9. Before submitting, ensure your code is browserified. If the first line is not a long, minified function then you did it wrong.
+    10. Commit and push to github
+    11. Upload the game to yourname.fvi-grad.com
