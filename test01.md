@@ -28,3 +28,5 @@
     9. Before submitting, ensure your code is browserified. If the first line is not a long, minified function then you did it wrong.
     10. Commit and push to github
     11. Upload the game to yourname.fvi-grad.com
+
+7. Bonus points: Produce a minified bundle for the exercise above using uglifyjs.
