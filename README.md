@@ -1,19 +1,20 @@
 # WEB2000
 
-#Homework
+# Homework
 
 Choice 1: Progress through 40% of codecademy javascript
+
 Choice 2: Progress through at least 20 levels of free code camp above level 150
 
-#Grading
+# Grading
 
-10% Attendance
-20% Homework
-30% completion of in class activities
-40% tests (20% each)
+10% Attendance  
+20% Homework  
+30% completion of in class activities  
+40% tests (20% each)  
 
 
-##Day 1
+## Day 1
 
 Html emails. The purpose of this class is for students to understand the challenges in creating html code which is compatible with all email clients. Students will create an email-friendly html resume.  
 
@@ -27,7 +28,7 @@ We clarify that external files and fonts cannot be used in emails. Use W3 to go 
 
 Inline styles are imperative for emails so students will be shown how to use the mailchimp or inkd css inliners.  
 
-##Day 2
+## Day 2
 
 Write a resume auto-emailer portal. It's supposed to post to this node endpoint. Students will create a nice form with the required fields (from, html_file_name, dest_email, subject) and post it to the route at http://fvi-grad.com:4004/resume-emailer
  
@@ -45,35 +46,35 @@ subject: The email subject you want the receiver to see
 
 The last two should be visible form inputs, the others should be hidden. 
 
-##Day 3
+## Day 3
 
 Finish resume emailer.
 
-##Day 4 
+## Day 4 
 
 Introduction to video and audio elements. We went through the first 3 parts of the treehouse class and made the two pages in this repo: https://github.com/Swolebrain/html5-video-and-audio-demo
 
-##Day 5
+## Day 5
 
 The objective of this day is for students to understand the principles of html performance optimization. After this class, students will have learned and applied asynchronous loading of scripts, conditional resources dependent on media, optimization of images, and minification of resources. Students will be assigned a project where they will implement a simple board game. We use the Udacity course: https://www.udacity.com/course/website-performance-optimization--ud884
 
 We need to leave students with specific resources such as how to bundle and minify CSS files using npm and how to browserify and uglify JS files, also using npm.
 
-##Day 6
+## Day 6
 
 Quick formative assessment on html emails, video/audio elements, and website performance optimization. Then we start with a guided tutorial building a Pong game on plain canvas: https://github.com/Swolebrain/Pong
 
-##Days 7-9
+## Days 7-9
 
 Flappy bird. First two days are spent on following along based on [this codebase](https://github.com/Swolebrain/flappy-bird), and the third day is spend on adding student-defined features, refactoring, browserifying, deploying.
 
 You can use this video for reference for students who miss class: https://www.youtube.com/watch?v=g1aIu2wi7Po
 
-##Day 10
+## Day 10
 
 
-##Day 11
+## Day 11
 
 
-##Day 12
+## Day 12
 Final Exam
