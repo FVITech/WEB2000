@@ -15,7 +15,7 @@
 
 5. What is the name of the Google tool you can use to see a list of things you can do to improve your page's load speed? (10 pts)  
 
-6. What is the purpose of including multiple `<code>` elements within a single `<video>` element?
+6. What is the purpose of including multiple `<source>` elements within a single `<video>` element?
 
 7. Use browserify to bundle all the files in the following project: https://github.com/Swolebrain/connect4  
   Setup Steps:
