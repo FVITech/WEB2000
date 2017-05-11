@@ -2,9 +2,16 @@
 
 # Homework
 
-Choice 1: Progress through 40% of codecademy javascript
+You will need to complete the following workshops and upload the finished version to FVI-grad.com. In all cases, you **must alter the design of the page to include your name, as well as a custom color scheme**. I suggest checking lolcolors.com for some ideas on color palettes.
 
-Choice 2: Progress through at least 20 levels of free code camp above level 150
+DOM scripting by example: https://teamtreehouse.com/library/dom-scripting-by-example  
+
+Object Oriented JavaScript:  
+https://teamtreehouse.com/library/objectoriented-javascript
+
+Sliding Animation menu:
+https://code.tutsplus.com/tutorials/making-a-sliding-side-navigation-menu-for-responsive-designs--cms-28400  
+**You may NOT use jQuery for this one, change the code so it uses addEventListener and only native JS functions**
 
 # Grading
 
