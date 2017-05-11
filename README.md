@@ -9,9 +9,8 @@ DOM scripting by example: https://teamtreehouse.com/library/dom-scripting-by-exa
 Object Oriented JavaScript:  
 https://teamtreehouse.com/library/objectoriented-javascript
 
-Sliding Animation menu:
-https://code.tutsplus.com/tutorials/making-a-sliding-side-navigation-menu-for-responsive-designs--cms-28400  
-**You may NOT use jQuery for this one, change the code so it uses addEventListener and only native JS functions**
+Canvas Clock tutorial:
+https://www.w3schools.com/graphics/canvas_clock.asp  
 
 # Grading
 
