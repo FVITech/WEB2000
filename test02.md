@@ -1,9 +1,13 @@
 1. What are three things you can do in order to speed up a website's load time? (Enumere tres cosas que se pueden hacer para aumentarle la velocidad a una pagina web) **(20pts)**
 
-2. Go to the Google PageSpeed insights page and analyze www.carnival.com
-Choose three of the shortcomings this website has and explain the specific tools and workflows we discussed in class which could help this website address these shortcomings. (Dirijase a la herramienta Google PageSpeed Insights y analice el sitio www.carnival.com. Basado en lo que dice la herramienta, enumere tres medidas especificas que discutimos en clase para corregir tres de los problemas senalados por la herramienta PageSpeed Insights)**(20pts)**
+2. Go to the Google PageSpeed insights page and analyze ncl.com
+Choose three of the shortcomings this website has and explain the specific tools and workflows we discussed in class which could help this website address these shortcomings. (Dirijase a la herramienta Google PageSpeed Insights y analice el sitio ncl.com. Basado en lo que dice la herramienta, enumere tres medidas especificas que discutimos en clase para corregir tres de los problemas senalados por la herramienta PageSpeed Insights)**(20pts)**
 
-3. Clone the repository named "Asteroids" from www.github.com/fvitech. Once you do this, complete the following steps:  
+3. What is the render tree?**(20pts)**
+
+4. Explain the process of a how a website loads in terms of the internal data structures built and used by the browser (DOM, CSSOM, etc).**(20pts)**
+
+5. Clone the repository named "Asteroids" from www.github.com/fvitech. Once you do this, complete the following steps:  
     1. Fork the github repo so you have your own fork  **(5pts)**  
     2. Clone your fork of the Asteroids repository  **(5pts)**  
     3. Re-organize the files so image files are inside an img folder and js files are inside a js folder. **(5pt)**
