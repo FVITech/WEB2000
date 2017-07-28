@@ -72,7 +72,7 @@ Quick formative assessment on html emails, video/audio elements, and website per
 
 ## Days 7-9
 
-Flappy bird. First two days are spent on following along based on [this codebase](https://github.com/Swolebrain/flappy-bird), and the third day is spend on adding student-defined features, refactoring, browserifying, deploying.
+Flappy bird. First two days are spent on following along based on [this codebase](https://github.com/Swolebrain/flappy-bird), and the third day is spent on adding student-defined features, refactoring, browserifying, deploying.
 
 You can use this video for reference for students who miss class: https://www.youtube.com/watch?v=g1aIu2wi7Po
 
