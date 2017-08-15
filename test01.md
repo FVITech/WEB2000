@@ -17,18 +17,18 @@
 
 6. What is the purpose of including multiple `<source>` elements within a single `<video>` element?
 
-7. Use browserify to bundle all the files in the following project: https://github.com/Swolebrain/connect4  
+7. Use webpack to bundle all the files in the following project: https://github.com/Swolebrain/connect4  
   Setup Steps:
     1. Fork the project by going to the above link and clicking "Fork" near the top right of the screen
     2. The project will now have a copy in your own github page. Clone it from there.
     3. In your computer, initialize this folder as a node project.
-    4. Install browserify, make sure it's saved as a development dependency in package.json
+    4. Install webpack, webpack dev server, and make sure they are saved as development dependencies in package.json
     5. Split out the code from the createTable function and the isLegitEdge function into separate files. **Make sure each function has its own file.**
-    6. Back in your main file, require the contents of your two new files
-    7. Create an npm script to use browserify to create a javascript bundle (one single file containing all your JS).
+    6. Back in your main file, require/import the contents of your two new files
+    7. Create an npm script to use webpack to fire the dev server and create a javascript bundle (one single file containing all your JS).
     8. Do anything else you need to do in order to get the bundle working and test your site.
-    9. Before submitting, ensure your code is browserified. If the first line is not a long, minified function then you did it wrong.
+    9. Before submitting, ensure your code is bundled into one file.
     10. Commit and push to github
     11. Upload the game to yourname.fvi-grad.com
 
-8. Bonus points: Produce a minified bundle for the exercise above using uglifyjs.
+8. Bonus points: Produce a minified bundle for the exercise above using an uglify plugin.
