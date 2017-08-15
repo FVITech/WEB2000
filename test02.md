@@ -12,16 +12,18 @@ Choose three of the shortcomings this website has and explain the specific tools
     2. Clone your fork of the Asteroids repository  **(5pts)**  
     3. Re-organize the files so image files are inside an img folder and js files are inside a js folder. **(5pt)**
     4. Initialize your local version of the project as a node project **(5pts)**   
-    5. Install browserify, watchify, and all the required transforms so that you can have a single code bundle output to a file named prod.js (ES6 to ES5 conversion **not** required) **(10pts)**  
+    5. Install webpack, webpack dev server, and all the required loaders so that you can have a single code bundle output to a file named prod.js **(10pts)**  
     6. The code is a bit messy, with many things in the same file. Modularize it by doing the following:  
-        1. Start by copying the contents of the codingIsFun.js file to a new file called main.js  
-        2. Create a watchify npm script to bundle your js code and create prod.js.**(10pts)**  
-        3. The Asteroids initialization code (which is marked by the comment which says GENERATE ASTEROIDS IN HTML DOCUMENT) should be in a separate file named createAsteroids.js. You will need to wrap this code in a function, export the function, then import this function and call it from main.js **(10pts)**  
+        1. Start by copying the contents of the codingIsFun.js file to a new file called main.js
+        2. Make this new file your webpack entry point
+        3. Create an npm script to bundle your js code and fire the webpack dev server.**(10pts)**  
+        3. The Asteroids initialization code (which is marked by the comment which says GENERATE ASTEROIDS IN HTML DOCUMENT) should be in a separate file named createAsteroids.js. You will need to wrap this code in a function, export the function, then import this function and call it from within main.js **(10pts)**  
         4. The auxiliary functions keyDown and keyUp should be moved to a separate file named controls.js.  
         5. The binding of the keyDown and keyUp events is currently being done in an attribute to the body tag. Change this by using JavaScript's document.addEventListener function.  
         6. Your controls.js file should export a single function that configures the controls when called. Import and call this function from your main.js file. **(10pts)**  
-        7. No more than one script link is allowed in the main index.html. The only script that should be linked from index.html is prod.js  
-        8. Use uglifyjs to minify the code **(20 point bonus)**  
+        7. The controls file binds key handlers that modify variables that are no longer present in the new file. You can fix this by making said variables global or by moving them from main.js into controls.js and then exporting them from there.
+        8. No more than one script link is allowed in the main index.html. The only script that should be linked from index.html is prod.js  
+        9. Use a webpack uglify plugin to minify the code **(20 point bonus)**  
     9. Upload your code to fvi-grad.com under your username **(10pts)**
-  7. In the end, all your JavaScript code should be inside a file named prod.js, which was created by using browserify. Nothing else should be linked to your html.  
+  7. In the end, all your JavaScript code should be inside a file named prod.js, which was created by using webpack. Nothing else should be linked to your html.  
   8. Notice that whenever there is a collision, the audio is being loaded and played. This slows down performance. Modify the code so that it loads the audio only once, stores it as a global variable, and whenever there is a collision, you use this global variable to reset the audio's currentTime to zero and then play it. **(20pts)**
